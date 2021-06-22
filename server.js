@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/budget", {
+mongoose.connect("mongodb://localhost/nameless-harbor-04256", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useNewUrlParser: true,

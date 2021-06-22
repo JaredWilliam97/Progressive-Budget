@@ -30,7 +30,7 @@ function saveRecord(record) {
   const store = transaction.objectStore("<object store name here>");
   store.add(record);
 }
-// creating a function for checkDatabase
+// creating a function for checkDatabase and calling check database function
 function checkDatabase() {
   const transaction = db.transaction(["<object store name here>"], "readwrite");
   const store = transaction.objectStore("<object store name here>");

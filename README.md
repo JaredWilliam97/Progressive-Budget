@@ -22,3 +22,4 @@ This will allow users a fast and easy way to track their money is important, but
 
 https://nameless-harbor-04256.herokuapp.com/
 
+Credits: Chip Long, Josh Lee, Alex Jurgs, Lacey Pape, Lauren Gabaldon, Tarik Maggio

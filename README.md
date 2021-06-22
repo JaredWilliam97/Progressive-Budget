@@ -1,4 +1,4 @@
-\*Online/Offline Budget Trackers
+* Online/Offline Budget Trackers
 
 
 ![image](https://user-images.githubusercontent.com/80869140/122853287-9ab09f00-d2d7-11eb-9da5-94c879e298e4.png)
@@ -6,6 +6,9 @@
 
 
 ![image](https://user-images.githubusercontent.com/80869140/122853185-6fc64b00-d2d7-11eb-9fa1-934dd886c1af.png)
+
+
+![image](https://user-images.githubusercontent.com/80869140/122856994-66d87800-d2dd-11eb-9d6d-aa281aac9605.png)
 
 
 - I am creating an App Budget Tracker to allow for offline access and functionality.

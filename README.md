@@ -1,4 +1,15 @@
-\*Online/Offline Budget Trackers
+* Online/Offline Budget Trackers
+
+
+![image](https://user-images.githubusercontent.com/80869140/122853287-9ab09f00-d2d7-11eb-9da5-94c879e298e4.png)
+
+
+
+![image](https://user-images.githubusercontent.com/80869140/122853185-6fc64b00-d2d7-11eb-9fa1-934dd886c1af.png)
+
+
+![image](https://user-images.githubusercontent.com/80869140/122856994-66d87800-d2dd-11eb-9d6d-aa281aac9605.png)
+
 
 - I am creating an App Budget Tracker to allow for offline access and functionality.
 
@@ -8,3 +19,9 @@
   so that my account balance is accurate when I am traveling.
 
 This will allow users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+
+https://nameless-harbor-04256.herokuapp.com/
+
+https://github.com/JaredWilliam97/Progressive-Budget
+
+Credits: Chip Long, Josh Lee, Alex Jurgs, Lacey Pape, Lauren Gabaldon, Tarik Maggio

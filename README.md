@@ -22,4 +22,6 @@ This will allow users a fast and easy way to track their money is important, but
 
 https://nameless-harbor-04256.herokuapp.com/
 
+https://github.com/JaredWilliam97/Progressive-Budget
+
 Credits: Chip Long, Josh Lee, Alex Jurgs, Lacey Pape, Lauren Gabaldon, Tarik Maggio

@@ -32,7 +32,7 @@ self.addEventListener("fetch", function (event) {
         .then((cache) => {
           return fetch(event.request)
             .then((response) => {
-              if (response.status === 200) {
+              if (response.status === 200 || event.request.method === "GET") {
                 cache.put(event.request.url, response.clone());
               }
 

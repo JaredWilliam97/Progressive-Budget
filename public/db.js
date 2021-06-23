@@ -7,10 +7,10 @@ const indexedDB =
 
 let db;
 
-const request = indexedDB.open("progressive-budget", 1);
+const request = indexedDB.open("budget", 1);
 // taking just the event (destructuring )
 request.onupgradeneeded = ({ target }) => {
-  let db = target.result;
+  db = target.result;
   db.createObjectStore("pending", { autoIncrement: true });
 };
 
@@ -26,14 +26,14 @@ request.onerror = function (event) {
 };
 // creating a function for save record
 function saveRecord(record) {
-  const transaction = db.transaction(["<object store name here>"], "readwrite");
-  const store = transaction.objectStore("<object store name here>");
+  const transaction = db.transaction(["budget"], "readwrite");
+  const store = transaction.objectStore("pending");
   store.add(record);
 }
 // creating a function for checkDatabase and calling check database function
 function checkDatabase() {
-  const transaction = db.transaction(["<object store name here>"], "readwrite");
-  const store = transaction.objectStore("<object store name here>");
+  const transaction = db.transaction(["budget"], "readwrite");
+  const store = transaction.objectStore("pending");
   const getAll = store.getAll();
 
   //get all on success
@@ -51,11 +51,8 @@ function checkDatabase() {
           return response.json();
         })
         .then(() => {
-          const transaction = db.transaction(
-            ["<object store name here>"],
-            "readwrite"
-          );
-          const store = transaction.objectStore("<object store name here>");
+          const transaction = db.transaction(["budget"], "readwrite");
+          const store = transaction.objectStore("pending");
           store.clear();
         });
     }
